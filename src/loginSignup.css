@@ -1,0 +1,96 @@
+/* Form Container */
+.form-container {
+  width: 100%;
+  max-width: 400px; /* Limit width for better appearance */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color for the form */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better contrast */
+}
+
+/* Sign In / Sign Up options alignment */
+.auth-tabs {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  margin-bottom: 20px; /* Space between options and the form */
+}
+
+.auth-tabs button {
+  flex: 1; /* Each button takes equal width */
+  padding: 15px;
+  border: none;
+  background-color: #f0f0f0;
+  font-size: 18px; /* Increase font size */
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center; /* Center text */
+  margin: 0 5px; /* Space between buttons */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.auth-tabs .active {
+  background-color: #fff; /* Background color for active tab */
+  color: #3498db; /* Color for active tab text */
+  border-bottom: 2px solid #3498db; /* Blue underline for active tab */
+}
+
+.auth-tabs button:hover {
+  background-color: #ddd; /* Hover color */
+}
+
+/* Form Inner */
+.auth-form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+.auth-form h2 {
+  margin-bottom: 20px; /* Space below heading */
+  color: #333; /* Dark color for the heading */
+  font-size: 24px; /* Larger font size for the heading */
+  text-align: center; /* Center the heading text */
+}
+
+.auth-form input {
+  margin-bottom: 15px; /* Space between fields */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px; /* Increase font size for input text */
+}
+
+.auth-form button {
+  background-color: #3498db; /* Button color */
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px; /* Increase font size for button text */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.auth-form button:hover {
+  background-color: #2980b9; /* Hover color */
+}
+
+/* Error and success messages */
+.error-message, .success-message {
+  text-align: center; /* Center the messages */
+  margin-top: 10px;
+  font-size: 14px; /* Slightly smaller font size */
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: rgb(128, 0, 0);
+}
+
+
+
